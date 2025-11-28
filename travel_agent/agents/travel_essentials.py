@@ -7,8 +7,8 @@ from google.adk.runners import InMemoryRunner
 from google.adk.tools import google_search
 from google.adk.tools.function_tool import FunctionTool
 
-from tools.userInput import get_user_input
-from tools.googleSearchAgentTool import search_tool
+from ..tools.userInput import get_user_input
+from ..tools.googleSearchAgentTool import search_tool
 
 load_dotenv()
 google_api_key = os.getenv("GOOGLE_API_KEY")
